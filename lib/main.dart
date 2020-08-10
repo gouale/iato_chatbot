@@ -29,8 +29,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final GlobalKey<AnimatedListState> _listKey = GlobalKey();
   List<String> _data = [];
-  static const String BOT_URL =
-      "https://supercodebot.herokuapp.com"; // replace with server address
+  static const String BOT_URL = "https://qohelet.herokuapp.com/";
   TextEditingController _queryController = TextEditingController();
   @override
   Widget build(BuildContext context) {
