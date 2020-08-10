@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Flutter & Python"),
+        title: Text("Qohelet"),
       ),
       body: Stack(
         children: <Widget>[
